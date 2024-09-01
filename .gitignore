@@ -1,0 +1,5 @@
+# Ignore all backups
+*/**/*backups
+
+# Ignore all freerouter cache
+*/**/fp-info-cache
