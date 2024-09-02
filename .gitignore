@@ -3,3 +3,5 @@
 
 # Ignore all freerouter cache
 */**/fp-info-cache
+
+*/**/**.bak
