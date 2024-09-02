@@ -1,7 +1,9 @@
 # Ignore all backups
 */**/*backups
+*/**/**.bak
 
-# Ignore all freerouter cache
+# Ignore all cache
 */**/fp-info-cache
 
-*/**/**.bak
+# Ignore all .kicad_prl
+*/**/**.kicad_prl
