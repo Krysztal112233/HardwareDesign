@@ -4254,7 +4254,7 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:TS-1101-C-W"
+		(symbol "easyeda2kicad:TS342A2P-WZ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4266,7 +4266,7 @@
 					)
 				)
 			)
-			(property "Value" "TS-1101-C-W"
+			(property "Value" "TS342A2P-WZ"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4274,7 +4274,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
+			(property "Footprint" "easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -4283,8 +4283,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS342A2P-WZ_C557591.html"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4301,8 +4301,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C318938"
-				(at 0 -10.16 0)
+			(property "LCSC Part" "C557591"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4310,11 +4310,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TS-1101-C-W_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.02) (xy 2.54 1.02)
-					)
+			(symbol "TS342A2P-WZ_0_1"
+				(circle
+					(center -2.03 0)
+					(radius 0.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -4325,8 +4324,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 1.02) (xy -0.51 1.27) (xy 0.51 1.27) (xy 0.51 1.02)
+						(xy 2.03 1.52) (xy -2.03 0.51)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.03 0)
+					(radius 0.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -4336,8 +4346,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 0 0)
-					(length 5.08)
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -4354,8 +4364,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 0 180)
-					(length 5.08)
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -5722,6 +5732,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 257.81) (xy 284.48 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d15da13-dd6b-4bb6-9534-83691a93309c")
+	)
+	(wire
+		(pts
 			(xy 66.04 214.63) (xy 74.93 214.63)
 		)
 		(stroke
@@ -6022,6 +6042,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 257.81) (xy 226.06 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a10ecc1-35a5-495e-89ec-cc0cba50b4aa")
+	)
+	(wire
+		(pts
 			(xy 85.09 26.67) (xy 85.09 30.48)
 		)
 		(stroke
@@ -6132,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 257.81) (xy 204.47 257.81)
+			(xy 204.47 257.81) (xy 212.09 257.81)
 		)
 		(stroke
 			(width 0)
@@ -6169,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "4c129c7e-c62b-48d0-b5c2-adb2927029b0")
-	)
-	(wire
-		(pts
-			(xy 379.73 55.88) (xy 384.81 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c4f6b45-d5c5-46bc-8f78-602df8318d79")
 	)
 	(wire
 		(pts
@@ -6239,16 +6259,6 @@
 			(type default)
 		)
 		(uuid "4ee53f23-3f1d-44a3-a99c-e953d3089b5e")
-	)
-	(wire
-		(pts
-			(xy 224.79 257.81) (xy 226.06 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f71d64e-61f4-4064-947b-d78fd3ac1c02")
 	)
 	(wire
 		(pts
@@ -6702,16 +6712,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 102.87) (xy 384.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72aa0eb5-325e-40bd-9f8b-5503b9e3ae09")
-	)
-	(wire
-		(pts
 			(xy 104.14 238.76) (xy 87.63 238.76)
 		)
 		(stroke
@@ -6769,16 +6769,6 @@
 			(type default)
 		)
 		(uuid "77ae9e21-67cb-4bb5-af33-477f2201ba04")
-	)
-	(wire
-		(pts
-			(xy 283.21 257.81) (xy 284.48 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "785d1f1c-c3b3-426b-a054-04d32316fcbc")
 	)
 	(wire
 		(pts
@@ -7079,6 +7069,16 @@
 			(type default)
 		)
 		(uuid "984a3a9e-b56e-461b-b43e-d297e11d4952")
+	)
+	(wire
+		(pts
+			(xy 377.19 102.87) (xy 384.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0f72cd-3cf3-49de-b1b8-6eec71f2a088")
 	)
 	(wire
 		(pts
@@ -7402,7 +7402,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 102.87) (xy 364.49 102.87)
+			(xy 354.33 102.87) (xy 367.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7539,6 +7539,16 @@
 			(type default)
 		)
 		(uuid "c1f33227-96c6-447f-82ab-f78ec17f0575")
+	)
+	(wire
+		(pts
+			(xy 377.19 55.88) (xy 384.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fe98a5-ccda-41f1-bf7a-97cfa14f2685")
 	)
 	(wire
 		(pts
@@ -7842,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 257.81) (xy 262.89 257.81)
+			(xy 262.89 257.81) (xy 270.51 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8012,7 +8022,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 55.88) (xy 364.49 55.88)
+			(xy 354.33 55.88) (xy 367.03 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9400,83 +9410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TS-1101-C-W")
-		(at 275.59 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01e25d81-795f-491d-8a34-e58ddc32ac18")
-		(property "Reference" "SW4"
-			(at 275.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1101-C-W"
-			(at 275.59 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
-			(at 275.59 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C318938"
-			(at 275.59 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "065b0fe8-54a6-4c99-b08c-76f521f870a9")
-		)
-		(pin "1"
-			(uuid "f95783d4-77cf-4e69-9b48-93acc13e1744")
-		)
-		(instances
-			(project "audio"
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 40.64 96.52 90)
 		(unit 1)
@@ -10213,83 +10146,6 @@
 			(project "audio"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TS-1101-C-W")
-		(at 372.11 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c8918c9-2c02-4925-9fed-cb2cdc760884")
-		(property "Reference" "SW2"
-			(at 372.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1101-C-W"
-			(at 372.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
-			(at 372.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C318938"
-			(at 372.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74a61146-328c-437d-b368-2b650d41589b")
-		)
-		(pin "1"
-			(uuid "a2b7f12b-cdd9-4b6c-bb43-2ab5618288bc")
-		)
-		(instances
-			(project "audio"
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -12504,83 +12360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TS-1101-C-W")
-		(at 217.17 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b0062b6-aa80-4b6c-a3a7-442d32f2a411")
-		(property "Reference" "SW1"
-			(at 217.17 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1101-C-W"
-			(at 217.17 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
-			(at 217.17 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C318938"
-			(at 217.17 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c61d690e-8116-4e64-9839-9e761341e163")
-		)
-		(pin "1"
-			(uuid "977a3b01-e8d4-43b6-9dce-07e5a03d4b4a")
-		)
-		(instances
-			(project ""
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 322.58 217.17 0)
 		(unit 1)
@@ -13388,6 +13167,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TS342A2P-WZ")
+		(at 275.59 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb5a33c-f57d-412b-807a-22adf25ef40a")
+		(property "Reference" "SW2"
+			(at 275.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS342A2P-WZ"
+			(at 275.59 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0"
+			(at 275.59 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS342A2P-WZ_C557591.html"
+			(at 275.59 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C557591"
+			(at 275.59 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25530b06-a2fa-4bd3-98fb-0ec5a37a7a84")
+		)
+		(pin "2"
+			(uuid "4c1652ac-ba43-42e7-b7cf-f020bf3ca128")
+		)
+		(instances
+			(project "i2s_audio_recorder"
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 354.33 41.91 0)
 		(unit 1)
@@ -13449,6 +13305,83 @@
 			(project "audio"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS342A2P-WZ")
+		(at 217.17 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954d1c64-cc1c-4455-b520-48c2e3906f40")
+		(property "Reference" "SW1"
+			(at 217.17 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS342A2P-WZ"
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0"
+			(at 217.17 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS342A2P-WZ_C557591.html"
+			(at 217.17 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C557591"
+			(at 217.17 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "074801b3-3dbb-452c-86ff-2b9a87c160f4")
+		)
+		(pin "2"
+			(uuid "4649e381-3882-4b28-bc11-beba41282c97")
+		)
+		(instances
+			(project ""
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15060,6 +14993,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TS342A2P-WZ")
+		(at 372.11 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76e6e43-e7c2-4d65-8c53-9740a3c1bb25")
+		(property "Reference" "SW4"
+			(at 372.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS342A2P-WZ"
+			(at 372.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0"
+			(at 372.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS342A2P-WZ_C557591.html"
+			(at 372.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C557591"
+			(at 372.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47f60c19-602c-427b-88ac-9132105a89d8")
+		)
+		(pin "2"
+			(uuid "4b94b252-13dd-4814-a6a3-062c2b9e28d4")
+		)
+		(instances
+			(project "i2s_audio_recorder"
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 290.83 123.19 0)
 		(unit 1)
@@ -15693,83 +15703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TS-1101-C-W")
-		(at 372.11 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecb6640b-a829-4730-9996-1d5436693430")
-		(property "Reference" "SW3"
-			(at 372.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS-1101-C-W"
-			(at 372.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_L6.0-W3.3-LS8.0"
-			(at 372.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C318938"
-			(at 372.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1299b0e2-9cda-4222-a91b-324b5cb9b2bd")
-		)
-		(pin "1"
-			(uuid "35bee2be-3c7a-4cee-8ec2-324b5c22fd7c")
-		)
-		(instances
-			(project "audio"
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 210.82 54.61 0)
 		(unit 1)
@@ -16189,6 +16122,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TS342A2P-WZ")
+		(at 372.11 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcf224af-3392-40ff-86a5-ddb14ce36f66")
+		(property "Reference" "SW3"
+			(at 372.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS342A2P-WZ"
+			(at 372.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0"
+			(at 372.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS342A2P-WZ_C557591.html"
+			(at 372.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C557591"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f0deb6c-de32-4f29-986a-ddb4acb9b1c9")
+		)
+		(pin "2"
+			(uuid "2a4654f8-b397-430b-81b7-742075618355")
+		)
+		(instances
+			(project "i2s_audio_recorder"
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:SD_Card_Device")
 		(at 290.83 99.06 0)
 		(unit 1)
@@ -16216,7 +16226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
+		(property "Footprint" "easyeda2kicad:TF-SMD_TF-123-ARP9H15"
 			(at 290.83 99.06 0)
 			(effects
 				(font
