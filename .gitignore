@@ -7,3 +7,7 @@
 
 # Ignore all .kicad_prl
 */**/**.kicad_prl
+
+# Ignore fabric-toolkit
+*/**/production
+*/**/fabrication-toolkit-options.json

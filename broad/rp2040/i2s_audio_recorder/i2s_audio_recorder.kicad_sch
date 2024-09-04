@@ -4623,126 +4623,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -7332,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 207.01) (xy 386.08 207.01)
+			(xy 386.08 207.01) (xy 393.7 207.01)
 		)
 		(stroke
 			(width 0)
@@ -8407,17 +8287,6 @@
 		)
 		(uuid "1304ad69-03fb-4c5d-9aa9-7a0de30e921a")
 	)
-	(label "ADC_VERF"
-		(at 393.7 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "189d76f6-4631-4b3e-bfb7-5093bd38fc76")
-	)
 	(label "SD_DAT1"
 		(at 123.19 83.82 0)
 		(fields_autoplaced yes)
@@ -8527,17 +8396,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ac8332d-04ba-48c3-b94d-8869b4163a8a")
-	)
-	(label "SD_CLK"
-		(at 123.19 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bad137f-4cc3-45d6-b4ac-cdd8e8833695")
 	)
 	(label "GPIO1"
 		(at 123.19 53.34 0)
@@ -8748,8 +8606,8 @@
 		)
 		(uuid "57e62375-791a-4b90-b2bc-f07007d2b035")
 	)
-	(label "ADC_AVDD"
-		(at 393.7 212.09 0)
+	(label "ADC_VERF"
+		(at 393.7 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8757,7 +8615,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5842c447-941e-409e-a7d5-1be81b665027")
+		(uuid "594a417c-9d37-4966-9c67-e87b1e5fb84a")
+	)
+	(label "ADC_AVDD"
+		(at 393.7 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c4724de-56c2-4947-a8d6-969cb1154d2c")
 	)
 	(label "DM"
 		(at 74.93 214.63 0)
@@ -8769,6 +8638,17 @@
 			(justify left bottom)
 		)
 		(uuid "61cce28c-60de-464c-a1ae-514b23a30414")
+	)
+	(label "SD_CLK"
+		(at 123.19 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62715e3c-b09c-4866-b363-482a67eb73a2")
 	)
 	(label "GPIO1"
 		(at 358.14 199.39 0)
@@ -9155,17 +9035,6 @@
 		)
 		(uuid "d5671f2a-52a9-45eb-a8d2-fd032a7a082a")
 	)
-	(label "SD_CMD"
-		(at 123.19 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5ac1f44-c7e5-4068-aaaf-6a46da596a96")
-	)
 	(label "I2S_WS"
 		(at 171.45 66.04 180)
 		(fields_autoplaced yes)
@@ -9231,6 +9100,17 @@
 			(justify left bottom)
 		)
 		(uuid "dbd1b4b5-c3c3-436a-835a-dec3292b5bf3")
+	)
+	(label "SD_CMD"
+		(at 123.19 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfe57dff-b044-46df-bfcd-704f828df11d")
 	)
 	(label "I2S_WS"
 		(at 123.19 68.58 0)
@@ -9609,73 +9489,6 @@
 			(project ""
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V1")
-		(at 391.16 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1041e24d-c338-45d3-b59e-14594954f096")
-		(property "Reference" "#PWR038"
-			(at 387.35 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 395.478 205.486 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 391.16 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc6e22c7-0bec-45ad-a216-9e17a38c6af2")
-		)
-		(instances
-			(project "audio"
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10777,6 +10590,73 @@
 			(project "audio"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 322.58 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b0bfc45-2528-424e-88d4-afafef889531")
+		(property "Reference" "#PWR037"
+			(at 318.77 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 326.39 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 322.58 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77336aab-a6bb-4182-acc2-a15da1ec8da4")
+		)
+		(instances
+			(project "i2s_audio_recorder"
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12162,7 +12042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 165.1 138.43 0)
 			(effects
 				(font
@@ -12882,7 +12762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 104.14 219.71 0)
 			(effects
 				(font
@@ -13176,7 +13056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cb5a33c-f57d-412b-807a-22adf25ef40a")
-		(property "Reference" "SW2"
+		(property "Reference" "RUN1"
 			(at 275.59 251.46 0)
 			(effects
 				(font
@@ -13237,7 +13117,7 @@
 		(instances
 			(project "i2s_audio_recorder"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW2")
+					(reference "RUN1")
 					(unit 1)
 				)
 			)
@@ -13320,7 +13200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "954d1c64-cc1c-4455-b520-48c2e3906f40")
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT1"
 			(at 217.17 251.46 0)
 			(effects
 				(font
@@ -13381,7 +13261,7 @@
 		(instances
 			(project ""
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW1")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -13955,73 +13835,6 @@
 			(project ""
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 322.58 209.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7daef5f-173f-4be2-86f8-1b8b849d5457")
-		(property "Reference" "#PWR037"
-			(at 318.77 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 326.39 209.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 322.58 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2805f9d9-5350-4459-9893-4802c03a9c83")
-		)
-		(instances
-			(project ""
-				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15002,7 +14815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76e6e43-e7c2-4d65-8c53-9740a3c1bb25")
-		(property "Reference" "SW4"
+		(property "Reference" "STOP1"
 			(at 372.11 49.53 0)
 			(effects
 				(font
@@ -15063,7 +14876,74 @@
 		(instances
 			(project "i2s_audio_recorder"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW4")
+					(reference "STOP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 393.7 212.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce336f36-92be-4254-bed7-252599a0c93b")
+		(property "Reference" "#PWR038"
+			(at 389.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 398.018 210.566 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 393.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121c10c5-220d-43ba-8314-2a0551c3a35c")
+		)
+		(instances
+			(project "i2s_audio_recorder"
+				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15235,7 +15115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 177.8 138.43 0)
 			(effects
 				(font
@@ -15808,7 +15688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 152.4 138.43 0)
 			(effects
 				(font
@@ -16131,7 +16011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf224af-3392-40ff-86a5-ddb14ce36f66")
-		(property "Reference" "SW3"
+		(property "Reference" "START1"
 			(at 372.11 96.52 0)
 			(effects
 				(font
@@ -16192,7 +16072,7 @@
 		(instances
 			(project "i2s_audio_recorder"
 				(path "/686bcb0d-1b9d-4fec-a21a-3860a78c3874"
-					(reference "SW3")
+					(reference "START1")
 					(unit 1)
 				)
 			)
