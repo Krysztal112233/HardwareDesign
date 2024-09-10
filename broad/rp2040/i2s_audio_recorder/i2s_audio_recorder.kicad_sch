@@ -11117,7 +11117,7 @@
 				)
 			)
 		)
-		(property "Value" "512ohm"
+		(property "Value" "5.1kohm"
 			(at 54.61 209.042 90)
 			(do_not_autoplace yes)
 			(effects
@@ -13423,7 +13423,7 @@
 				)
 			)
 		)
-		(property "Value" "512ohm"
+		(property "Value" "5.1kohm"
 			(at 54.61 202.438 90)
 			(do_not_autoplace yes)
 			(effects
