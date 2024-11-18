@@ -1296,6 +1296,18 @@
 		(uuid "12a8ecd4-871a-46fd-9b04-4dbe1ceb6040")
 	)
 	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0d538d-7185-468d-ace7-6c199acc1f8f")
+	)
+	(junction
+		(at 161.29 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bb555fa-6186-431b-82a5-94edd7cdb190")
+	)
+	(junction
 		(at 119.38 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1417,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f0a51e-8f85-4a9a-a179-e2621f599bdd")
+	)
+	(wire
+		(pts
 			(xy 161.29 80.01) (xy 160.02 80.01)
 		)
 		(stroke
@@ -1484,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "68b24aa7-41bc-42e3-9a42-65dde7fef8e5")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf2b0dc-e79d-4671-bbf5-ac5798e83a63")
 	)
 	(wire
 		(pts
@@ -1696,7 +1728,7 @@
 		(uuid "ea7edf50-7758-4110-95a0-6471e6c20690")
 	)
 	(label "DM"
-		(at 161.29 88.9 0)
+		(at 165.1 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1704,10 +1736,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6a1977f4-d972-4a09-b2ee-c496a6f4bc46")
+		(uuid "5e1eeb04-8985-466e-8ccc-ea42399b6148")
 	)
 	(label "DP"
-		(at 148.59 93.98 0)
+		(at 152.4 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1715,51 +1747,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "86b019dc-8e1c-4f53-9d73-22b751d08469")
-	)
-	(global_label "USB_D+"
-		(shape input)
-		(at 148.59 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f206cce9-97f6-4b27-a9db-4df93f121407")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.1952 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape input)
-		(at 161.29 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5a27f23-96ae-4022-8bbf-7820868ea980")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.8952 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "6efdd715-9f0d-4766-9f4a-573e5dabc28a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1823,7 +1811,7 @@
 			(uuid "8e53795f-93e5-4e7f-a8d2-a2afbc78016a")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "R5")
 					(unit 1)
@@ -1904,7 +1892,7 @@
 			(uuid "9e3e583c-93e9-4eaa-a9e4-eda777929f0b")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "U3")
 					(unit 1)
@@ -1985,7 +1973,7 @@
 			(uuid "164fa814-078e-4e59-be25-49470d97a3c9")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "U4")
 					(unit 1)
@@ -2098,7 +2086,7 @@
 			(uuid "48ac5d6e-d347-40b3-9252-261481990482")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "J2")
 					(unit 1)
@@ -2168,7 +2156,7 @@
 			(uuid "8c7458ec-7afd-4c37-b8ae-671a6593f7e3")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "R6")
 					(unit 1)
@@ -2238,7 +2226,7 @@
 			(uuid "845499e0-a0b4-406e-a170-ca2c55773c8e")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "R3")
 					(unit 1)
@@ -2385,7 +2373,7 @@
 			(uuid "0525ac53-1361-4cc3-99d2-f1e2eba68be0")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "#PWR06")
 					(unit 1)
@@ -2455,7 +2443,7 @@
 			(uuid "76e98d9a-1ede-461a-a006-c36efa2abc31")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "R4")
 					(unit 1)
@@ -2521,7 +2509,7 @@
 			(uuid "1b2bfe96-b6c0-4cb9-b70f-b643c2f9aa1a")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "#PWR07")
 					(unit 1)
@@ -2588,7 +2576,7 @@
 			(uuid "02788fcf-e1b1-4bfd-a2da-aebfbe145c56")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "#PWR08")
 					(unit 1)
@@ -2654,7 +2642,7 @@
 			(uuid "e0d96084-6222-41c0-835f-0fdd51b672ae")
 		)
 		(instances
-			(project "typec"
+			(project "typec-power-usb2"
 				(path "/c5ec9cb7-a70c-486e-b21d-0f6f21bc1a22"
 					(reference "#FLG02")
 					(unit 1)

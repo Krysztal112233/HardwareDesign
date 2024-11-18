@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad:Empty_01x01_Pad"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53,7 +53,7 @@
 			(pin input line
 				(at -1.27 1.27 0)
 				(length 2.54)
-				(name "pad"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -90,7 +90,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad:Empty_01x02_Pad"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -121,7 +121,7 @@
 			(pin input line
 				(at -1.27 3.81 0)
 				(length 2.54)
-				(name "pad"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -139,7 +139,7 @@
 			(pin input line
 				(at -1.27 1.27 0)
 				(length 2.54)
-				(name "pad"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -176,7 +176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad:Empty_01x03_Pad"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -207,7 +207,7 @@
 			(pin input line
 				(at -1.27 6.35 0)
 				(length 2.54)
-				(name "pad"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,7 +225,7 @@
 			(pin input line
 				(at -1.27 3.81 0)
 				(length 2.54)
-				(name "pad"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,7 +243,7 @@
 			(pin input line
 				(at -1.27 1.27 0)
 				(length 2.54)
-				(name "pad"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,7 +280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad:Empty_01x04_Pad"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -311,7 +311,7 @@
 			(pin input line
 				(at -1.27 8.89 0)
 				(length 2.54)
-				(name "pad"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -329,7 +329,7 @@
 			(pin input line
 				(at -1.27 6.35 0)
 				(length 2.54)
-				(name "pad"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -347,7 +347,7 @@
 			(pin input line
 				(at -1.27 3.81 0)
 				(length 2.54)
-				(name "pad"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -365,7 +365,7 @@
 			(pin input line
 				(at -1.27 1.27 0)
 				(length 2.54)
-				(name "pad"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
