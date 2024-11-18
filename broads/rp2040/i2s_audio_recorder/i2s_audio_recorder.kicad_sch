@@ -8,7 +8,7 @@
 		(title "Audio Recorder on RP2040 with SD Card")
 		(date "2024-09-01")
 		(rev "0.1.0")
-		(company "Krysztal Huang")
+		(company "Krysztal Huang <krysztal.huang@outlook.com>")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
